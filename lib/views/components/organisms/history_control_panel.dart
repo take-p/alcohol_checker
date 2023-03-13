@@ -5,14 +5,7 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import '../atoms/expanded_button.dart';
 
 class HistoryControlPanel extends ConsumerWidget {
-  const HistoryControlPanel({
-    super.key,
-    required this.alcoholIntake,
-    required this.bloodAlcoholConcentration,
-  });
-
-  final ValueNotifier<double> alcoholIntake;
-  final ValueNotifier<double> bloodAlcoholConcentration;
+  const HistoryControlPanel({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {

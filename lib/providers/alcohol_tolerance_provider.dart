@@ -3,7 +3,7 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 final alcoholToleranceProvider =
     StateNotifierProvider<AlcoholToleranceNotifier, AlcoholTolerance>(
-  (ref) => AlcoholToleranceNotifier(AlcoholTolerance.dd),
+  (ref) => AlcoholToleranceNotifier(AlcoholTolerance.nn),
 );
 
 class AlcoholToleranceNotifier extends StateNotifier<AlcoholTolerance> {
