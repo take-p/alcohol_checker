@@ -1,7 +1,7 @@
 enum AlcoholTolerance {
-  nn("NN型", 1),
-  dn("DN型", 5),
-  dd("DD型", 30);
+  nn("NN型(酒に強い)", 1),
+  dn("DN型(酒に弱い)", 5),
+  dd("DD型(飲めない)", 30);
 
   const AlcoholTolerance(this.name, this.coefficient);
 
