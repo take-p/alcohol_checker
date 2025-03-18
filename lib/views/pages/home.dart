@@ -26,10 +26,10 @@ class Home extends StatelessWidget {
           const SizedBox(height: 16),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
-            children: [
+            children: const [
               JumpButton(text: "測定する", to: AlcoholCheckPage()),
-              const SizedBox(width: 16),
-              const JumpButton(text: "本アプリ\nについて"),
+              SizedBox(width: 16),
+              JumpButton(text: "本アプリ\nについて"),
             ],
           ),
         ],
